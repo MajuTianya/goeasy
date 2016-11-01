@@ -28,12 +28,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     var goEasy = new GoEasy({
         appkey: 'cc6a4467-cc29-44e7-8bca-27fca6dd2738'
     });
-    var uid='1';
+    var uid='2';
     goEasy.publish({
         channel: 'demo_channel'+uid,
         message: 'Hello world!'+uid
     });
     </script>
   </body>
-  
 </html>
