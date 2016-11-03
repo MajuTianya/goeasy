@@ -21,6 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is my JSP page. <br>
+    <a href="https://goeasy.io" target="_blank">goeasy官网</a><br/>
+    <a href="/goeasy/WebRoot/1to1/MyJsp.jsp" target="_blank">Jsp点对点示例</a><br/>
   </body>
 </html>
